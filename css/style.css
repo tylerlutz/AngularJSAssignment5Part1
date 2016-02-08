@@ -33,3 +33,33 @@ body {
 	border-radius: 20%;
 	border: 4px solid #293E6B;
 }
+
+.positionBottom {
+	position: absolute;
+	bottom: 0;
+	left: 15px;
+}
+
+.searchBar {
+	display: black;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.searchBar input {
+	width: 600px;
+	height: 60px;
+	font-family: 'Roboto Slab', serif;
+	font-size: x-large;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+footer p {
+	font-size: larger;
+	color: #78BB9C;
+	font-family: 'Roboto Slab', serif;
+}
+

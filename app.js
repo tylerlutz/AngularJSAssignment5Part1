@@ -12,7 +12,7 @@ app.controller('TutorialController',['$http',function($http){
 	  turorials.jsonList = [];
 	  
 	  $http.get('http://tylerlutz.github.io/AngularJSAssignment5Part1/json/tutorials.json').success(function(data){
-       turorials.jsonList = data;
+       tutorials.jsonList = data;
     });
   }]);
 */
