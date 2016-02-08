@@ -1,12 +1,13 @@
 (function(){
   var app = angular.module('tutorialLists', []);
   
+/*
   app.controller('TutorialController',function(){
 	  this.turorials = testList;
   })
     
+*/
 
-/*
 app.controller('TutorialController',['$http',function($http){
 	  var turorials = this;
 	  turorials.jsonList = [];
@@ -15,7 +16,6 @@ app.controller('TutorialController',['$http',function($http){
        tutorials.jsonList = data;
     });
   }]);
-*/
     
     testList = [
 	    {
