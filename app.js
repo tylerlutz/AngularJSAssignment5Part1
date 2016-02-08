@@ -1,13 +1,12 @@
 (function(){
   var app = angular.module('tutorialLists', []);
   
-/*
   app.controller('TutorialController',function(){
 	  this.turorials = testList;
   })
     
-*/
 
+/*
 app.controller('TutorialController',['$http',function($http){
 	  var turorials = this;
 	  turorials.jsonList = [];
@@ -16,8 +15,8 @@ app.controller('TutorialController',['$http',function($http){
        turorials.jsonList = data;
     });
   }]);
+*/
     
-/*
     testList = [
 	    {
 		url: "http://tutorials.jenkov.com/angularjs/index.html",
@@ -68,6 +67,5 @@ app.controller('TutorialController',['$http',function($http){
 			author: "Microsoft Virtual Academy"
 		}	
     ];
-*/
     
  })();
