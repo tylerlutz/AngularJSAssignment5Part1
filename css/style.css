@@ -1,0 +1,34 @@
+body {
+	background-color: #3B5997;
+}
+.headerContainer {
+	display: inline;
+	margin: auto;
+	font-family: 'Roboto Slab', serif;
+	color: white;
+}
+
+.container {
+	margin-top: 75px;
+}
+
+.tutorialContainer {
+	/*border: 2px solid #639BF2;*/
+	border-radius: 5px;
+	width: 300px;
+	height: 190px;
+	font-family: 'Roboto Slab', serif;
+	background-color: #FCFCFC;
+	box-shadow: inset 0px 0px 8px #476CB7,
+		1px 1px 3px #4061A4;
+	margin-left: 55px;
+	margin-top: 70px;
+}
+
+.writerImage {
+	width: 110px;
+	height: 126px;
+	margin-top: -60px;
+	border-radius: 20%;
+	border: 4px solid #293E6B;
+}
